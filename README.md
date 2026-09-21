@@ -1,16 +1,63 @@
-# React + Vite
+Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive Admin Dashboard built with React and Vite.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Dashboard sidebar navigation
+- Navbar with search field
+- Statistics cards
+- User analytics bar chart
+- Users data table
+- Search users by name
+- Sort users alphabetically
+- User status indicators
+- Responsive dashboard layout
+- Interactive UI components
 
-## React Compiler
+Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+- Recharts
 
-## Expanding the ESLint configuration
+Components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Sidebar
+- Navbar
+- StatsCard
+- AnalyticsChart
+- DataTable
+
+Analytics
+
+The dashboard includes a User Analytics bar chart displaying monthly user data using Recharts.
+
+User Management
+
+The Users Table provides:
+
+- User ID
+- User name
+- User role
+- User status
+- Search functionality
+- A-Z / Z-A sorting
+
+Getting Started
+
+Clone the repository and install the dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+The application will then be available through the local development URL provided by Vite.
+
+Project Purpose
+
+This project demonstrates the development of a modern admin dashboard using React, reusable components, data visualization, and interactive user-management features.
